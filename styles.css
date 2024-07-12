@@ -1,0 +1,70 @@
+body {
+  font-family: "Comic Neue", cursive;
+}
+
+.column_a {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  height: 100px;
+}
+
+.column_b {
+  float: left;
+  width: 15%;
+  padding: 1px;
+  height: 100px;
+}
+
+.column_c {
+  float: left;
+  width: 41%;
+  padding: 5px;
+  height: 50px;
+}
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input {
+  border: 0;
+  border-bottom: 2px solid gray;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  font-family: "Comic Neue", cursive;
+  font-size: medium;
+}
+
+.minimized {
+	height: 80px;
+	width: 100px;
+	object-fit: contain;
+	object-position: 50% 50%;
+}
+
+.gray-btn {
+	display: inline-block;
+	padding: 10px;
+	background-color: lightgray;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+.gray-btn:hover {
+	padding: 10px;
+	background-color: darkgray;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
